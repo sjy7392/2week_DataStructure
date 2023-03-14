@@ -5,7 +5,7 @@ int main()
     int integerType; //정수형 변수 integerType 선언
     float floatType; //4비트 실수형 변수 floatType 선언
     double doubleType; //8비트 실수형 변수 doubleType 선언
-
+    
     printf("[----- [손지연] [2020039104] -----]\n");
 
     printf("Size of char: %ld byte\n",sizeof(charType));  //charType 메모리 공간 크기 10진수 정수 형태로 출력

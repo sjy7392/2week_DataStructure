@@ -37,7 +37,7 @@ int main()
     printf("\n[checking values after dptr = &ptr] \n"); //dptr에 ptr의 주소 대입한 후의 값 확인
     printf("value of i == %d\n", i); //i의 값 정수 형태로 출력
     printf("address of i == %p\n", &i); //i의 주소 포인터 형태로 출력
-    printf("value of ptr == %p\n", ptr); //ptr의 값 포인터 형태로 출력
+    printf("value of ptr == %p\n", ptr); //ptr의 값 포인터 형태로 출력    
     printf("address of ptr == %p\n", &ptr); //ptr의 주소 포인터 형태로 출력
     printf("value of *ptr == %d\n", *ptr); //ptr이 가리키는 변수(=i) 정수 형태로 출력
     printf("value of dptr == %p\n", dptr); //dptr의 값 포인터 형태로 출력
